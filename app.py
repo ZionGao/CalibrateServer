@@ -1,12 +1,10 @@
-from flask import Flask
 import numpy as np
 import seaborn as sns; sns.set()
 from easydict import EasyDict
-from collections import OrderedDict
 from flask import Flask, make_response, request,json
 from flask_cors import *
 from common.logger import log
-from source.funcs import callibrate_camera
+from source.funcs import calibrate_camera,calibrate_camera_and_lidar
 
 app = Flask(__name__)
 CORS(app)
@@ -17,8 +15,8 @@ def hello_world():
     return get_result_response(data)
 
 
-@app.route('/CallibrateCamera',methods=['POST'])
-def batch():
+@app.route('/CalibrateCamera',methods=['POST'])
+def calibrateCamera():
     res = {"state": "99",
            "result": {}}
     code = []
@@ -45,11 +43,67 @@ def batch():
         }))
     log.info("ip:{}".format(request.remote_addr))
 
-    ret, mtx, dist, rvecs, tvecs = callibrate_camera(image_str)
+    ret, mtx, dist, rvecs, tvecs = calibrate_camera(image_str)
 
     result = {"ret": ret, "mtx": mtx.tolist(), "dist": dist.tolist(), "rvecs": list(map(np.ndarray.tolist, rvecs)),
               "tvecs": list(map(np.ndarray.tolist, tvecs))}
     res["result"] = result
+    res["state"] = "00"
+
+    return get_result_response(EasyDict(
+        res
+    ))
+
+
+
+@app.route('/CalibrateCameraAndLidar',methods=['POST'])
+def calibrateCameraAndLidar():
+    res = {"state": "99",
+           "result": {}}
+    data2d = []
+    data3d = []
+    xyz = (0, 0, 0)
+    try:
+        data = json.loads(request.get_data(as_text=True))
+        token = data['token']
+        prjId = data['prjId']
+        raw3d = data['coordinateData0']
+        raw2d = data['coordinateData1']
+        xyz = (float(data['BLH']["X"]), float(data['BLH']["Y"]), float(data['BLH']["Z"]))
+        mtx = np.array(data["para"]["mtx"])
+        dist = np.array(data["para"]["dist"])
+
+        assert (len(raw2d) == len(raw3d)), "接收坐标对数据长度不一致"
+        assert (len(raw2d) >= 6), "接收坐标对数据长度小于6"
+
+        for i in range(0,len(raw2d)):
+            tmpraw2dU = float(raw2d[i]["axisX"])
+            tmpraw2dV = float(raw2d[i]["axisY"])
+
+            tmpraw3dX = float(raw3d[i]["axisX"])
+            tmpraw3dY = float(raw3d[i]["axisY"])
+            tmpraw3dZ = float(raw3d[i]["axisZ"])
+
+
+            data2d.append((tmpraw2dU, tmpraw2dV))
+            data3d.append((tmpraw3dX, tmpraw3dY, tmpraw3dZ))
+
+        log.info("Successful transfer of points")
+    except Exception as e:
+        log.error(e)
+        res['msg'] = 'The server receives a bad json'
+        return get_result_response(EasyDict({
+            res
+        }))
+    log.info("ip:{}".format(request.remote_addr))
+
+    rotM, Cx, Cy, Cz, thetaX, thetaY, thetaZ = calibrate_camera_and_lidar(xyz, data2d, data3d, mtx, dist)
+
+    result = {"rotM": list(map(np.ndarray.tolist, rotM)), "Cx": Cx.tolist()[0], "Cy": Cy.tolist()[0],
+              "Cz": Cz.tolist()[0], "thetaX": thetaX, "thetaY": thetaY, "thetaZ": thetaZ}
+
+    res["result"] = result
+    res["state"] = "00"
 
     return get_result_response(EasyDict(
         res
