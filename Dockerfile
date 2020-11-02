@@ -8,16 +8,16 @@ ENV LANG=C.UTF-8
 ENV TZ=Asia/Shanghai
 LABEL maintainer="Zion.Gao@foxmail.com"
 
-COPY deploy/sources.list /etc/apt/
+COPY sources.list /etc/apt/
 RUN apt-get update && \
     apt-get install build-essential -y && \
-    apt-get install gcc libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev -y
+    apt-get install gcc libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libgl1-mesa-glx -y
 
-COPY deploy/anaconda.sh /
+COPY anaconda.sh /
 RUN /bin/bash /anaconda.sh -b -p /opt/conda
 
 RUN mkdir ~/.pip
-COPY deploy/pip.conf /
+COPY pip.conf /
 RUN cp /pip.conf ~/.pip
 
 RUN ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
@@ -32,10 +32,9 @@ RUN /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple seabo
     /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy && \
     /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple flask_cors && \
     /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple easydict && \
-    /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python && \
-    mkdir -p $SERVICE_HOME && \
+    /opt/conda/bin/pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python 
+RUN mkdir -p $SERVICE_HOME && \
     mkdir -p $SOURCE_PATH && \
-    mkdir -p $MODEL_PATH && \
     mkdir -p $COMMON_PATH && \
     mkdir -p $DATA_PATH
 
@@ -44,8 +43,14 @@ COPY common $COMMON_PATH
 COPY source $SOURCE_PATH
 
 COPY docker-entrypoint.sh $SERVICE_HOME
+COPY app.py $SERVICE_HOME
 
-WORKDIR $SOURCE_PATH
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get install libglib2.0-0 -y
+
+
+
+WORKDIR $SERVICE_HOME
 EXPOSE 9010
 ENTRYPOINT ["bash", "docker-entrypoint.sh"]
 

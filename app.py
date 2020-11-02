@@ -17,7 +17,8 @@ def hello_world():
 
 @app.route('/CalibrateCamera',methods=['POST'])
 def calibrateCamera():
-    res = {"state": "99",
+    res = {"code": "99",
+           "msg": "",
            "result": {}}
     code = []
     image_str = []
@@ -48,7 +49,8 @@ def calibrateCamera():
     result = {"ret": ret, "mtx": mtx.tolist(), "dist": dist.tolist(), "rvecs": list(map(np.ndarray.tolist, rvecs)),
               "tvecs": list(map(np.ndarray.tolist, tvecs))}
     res["result"] = result
-    res["state"] = "00"
+    res["code"] = "00"
+    res["msg"] = "Success"
 
     return get_result_response(EasyDict(
         res
@@ -58,7 +60,8 @@ def calibrateCamera():
 
 @app.route('/CalibrateCameraAndLidar',methods=['POST'])
 def calibrateCameraAndLidar():
-    res = {"state": "99",
+    res = {"code": "99",
+           "msg": "",
            "result": {}}
     data2d = []
     data3d = []
@@ -103,7 +106,9 @@ def calibrateCameraAndLidar():
               "Cz": Cz.tolist()[0], "thetaX": thetaX, "thetaY": thetaY, "thetaZ": thetaZ}
 
     res["result"] = result
-    res["state"] = "00"
+    res["code"] = "00"
+    res["msg"] = "Success"
+
 
     return get_result_response(EasyDict(
         res
@@ -120,4 +125,4 @@ def get_result_response(msg):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=9010)

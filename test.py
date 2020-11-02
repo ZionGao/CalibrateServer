@@ -7,10 +7,7 @@
 # @desc :
 import requests
 import json
-import time
-import re
 import base64
-import sys
 import glob
 
 pics = glob.glob('data/*.jpg')
@@ -20,7 +17,6 @@ def get_base64_fromImg(img_path):
     f = open(img_path, 'rb')
     base64_data = base64.b64encode(f.read())
     return base64_data.decode()
-    # print('data:image/jpeg;base64,%s'%s)
 
 
 data1 = {'token': 1234,
@@ -37,14 +33,9 @@ data1 = {'token': 1234,
          ]
          }
 
-start_time = time.time()
 _ = requests.post('http://127.0.0.1:5000/CalibrateCamera', data=json.dumps(data1))
-print(_)
-end_time = time.time()
-interval = end_time - start_time
-print("time:", interval)
 result = json.loads(_.text)
-print(result['result'])
+print(result)
 
 data2 = {'token': 1234,
          'prjId': 1234,
@@ -68,9 +59,6 @@ data2 = {'token': 1234,
          ],
          }
 
-start_time = time.time()
 _ = requests.post('http://127.0.0.1:5000/CalibrateCameraAndLidar', data=json.dumps(data2))
-end_time = time.time()
-interval = end_time - start_time
 result = json.loads(_.text)
 print(result)
