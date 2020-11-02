@@ -76,7 +76,7 @@ def calibrateCameraAndLidar():
         prjId = data['prjId']
         raw3d = data['coordinateData0']
         raw2d = data['coordinateData1']
-        xyz = (float(data['BLH']["X"]), float(data['BLH']["Y"]), float(data['BLH']["Z"]))
+        xyz = (float(data['BLH']["x"]), float(data['BLH']["y"]), float(data['BLH']["z"]))
         mtx = np.array(data["para"]["mtx"])
         dist = np.array(data["para"]["dist"])
 

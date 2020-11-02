@@ -15,3 +15,588 @@
 [2020-11-01 23:02:17][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
 [2020-11-01 23:03:39][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
 [2020-11-01 23:03:39][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:27:23][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:27:23][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:27:39][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:27:39][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:39:47][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:39:47][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:39:48][common.logger][app.py][line:94][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:40:53][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:40:53][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:40:54][common.logger][app.py][line:95][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:41:14][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:41:14][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:41:15][common.logger][app.py][line:95][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:41:21][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:41:21][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:41:22][common.logger][app.py][line:96][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:41:53][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:41:53][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:41:54][common.logger][app.py][line:97][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:42:42][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:42:42][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:42:43][common.logger][app.py][line:97][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:42:49][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:42:49][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:42:50][common.logger][app.py][line:97][ERROR][log]: 接收坐标对数据长度小于6
+[2020-11-02 10:43:30][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:43:30][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:43:30][common.logger][app.py][line:95][INFO][log]: Successful transfer of points
+[2020-11-02 10:43:30][common.logger][app.py][line:102][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:44:42][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:44:42][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:44:43][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:44:43][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:45:36][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:45:36][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:45:36][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:45:36][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:46:29][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:46:29][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:46:30][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:46:30][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 10:46:30][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 10:52:56][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:52:56][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:52:56][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:52:56][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:145][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 10:52:56][common.logger][funcs.py][line:146][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 10:53:52][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:53:52][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:53:53][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:53:53][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:145][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 10:53:53][common.logger][funcs.py][line:146][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 10:56:22][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:56:22][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:56:23][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:56:23][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:145][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 10:56:23][common.logger][funcs.py][line:146][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 10:58:16][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 10:58:16][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:58:16][common.logger][app.py][line:92][INFO][log]: Successful transfer of points
+[2020-11-02 10:58:16][common.logger][app.py][line:99][INFO][log]: ip:127.0.0.1
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:145][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 10:58:16][common.logger][funcs.py][line:146][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 11:01:42][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 11:01:42][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 11:01:42][common.logger][app.py][line:93][INFO][log]: Successful transfer of points
+[2020-11-02 11:01:42][common.logger][app.py][line:100][INFO][log]: ip:127.0.0.1
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:118][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:119][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:120][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:145][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 11:01:42][common.logger][funcs.py][line:146][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 11:02:23][common.logger][app.py][line:39][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 11:02:23][common.logger][app.py][line:46][INFO][log]: ip:127.0.0.1
+[2020-11-02 11:02:23][common.logger][funcs.py][line:69][INFO][log]: 读入图像2张
+[2020-11-02 11:02:24][common.logger][app.py][line:93][INFO][log]: Successful transfer of points
+[2020-11-02 11:02:24][common.logger][app.py][line:100][INFO][log]: ip:127.0.0.1
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:116][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:117][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:118][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:143][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 11:02:24][common.logger][funcs.py][line:144][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 15:24:02][common.logger][app.py][line:37][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 15:24:02][common.logger][app.py][line:44][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:24:02][common.logger][funcs.py][line:65][INFO][log]: 读入图像2张
+[2020-11-02 15:24:18][common.logger][app.py][line:37][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 15:24:18][common.logger][app.py][line:44][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:24:18][common.logger][funcs.py][line:65][INFO][log]: 读入图像2张
+[2020-11-02 15:24:19][common.logger][app.py][line:91][INFO][log]: Successful transfer of points
+[2020-11-02 15:24:19][common.logger][app.py][line:98][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:112][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:113][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:114][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:139][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 15:24:19][common.logger][funcs.py][line:140][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 15:29:37][common.logger][app.py][line:37][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 15:29:37][common.logger][app.py][line:44][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:29:37][common.logger][funcs.py][line:65][INFO][log]: 读入图像2张
+[2020-11-02 15:29:37][common.logger][app.py][line:91][INFO][log]: Successful transfer of points
+[2020-11-02 15:29:37][common.logger][app.py][line:98][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:112][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:113][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:114][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:139][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 15:29:37][common.logger][funcs.py][line:140][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 15:29:50][common.logger][app.py][line:37][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 15:29:50][common.logger][app.py][line:44][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:29:50][common.logger][funcs.py][line:65][INFO][log]: 读入图像2张
+[2020-11-02 15:29:50][common.logger][app.py][line:91][INFO][log]: Successful transfer of points
+[2020-11-02 15:29:50][common.logger][app.py][line:98][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:112][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:113][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:114][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:139][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 15:29:50][common.logger][funcs.py][line:140][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
+[2020-11-02 15:37:58][common.logger][app.py][line:38][INFO][log]: Successful Transfer of Pictures
+[2020-11-02 15:37:58][common.logger][app.py][line:45][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:37:58][common.logger][funcs.py][line:65][INFO][log]: 读入图像2张
+[2020-11-02 15:37:59][common.logger][app.py][line:94][INFO][log]: Successful transfer of points
+[2020-11-02 15:37:59][common.logger][app.py][line:101][INFO][log]: ip:127.0.0.1
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第0点雷达坐标：Lx - 0,Ly - 0,Lz - 0
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第0点大地坐标：X - 0,Y - 0,Z - 0
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第0点像素坐标：U - 0,V - 0
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第1点雷达坐标：Lx - 1,Ly - 1,Lz - 1
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第1点大地坐标：X - 1,Y - 1,Z - 1
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第1点像素坐标：U - 1,V - 1
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第2点雷达坐标：Lx - 2,Ly - 2,Lz - 2
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第2点大地坐标：X - 2,Y - 2,Z - 2
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第2点像素坐标：U - 2,V - 2
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第3点雷达坐标：Lx - 3,Ly - 3,Lz - 3
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第3点大地坐标：X - 3,Y - 3,Z - 3
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第3点像素坐标：U - 3,V - 3
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第4点雷达坐标：Lx - 4,Ly - 4,Lz - 4
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第4点大地坐标：X - 4,Y - 4,Z - 4
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第4点像素坐标：U - 4,V - 4
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:112][INFO][log]: 第5点雷达坐标：Lx - 5,Ly - 5,Lz - 5
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:113][INFO][log]: 第5点大地坐标：X - 5,Y - 5,Z - 5
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:114][INFO][log]: 第5点像素坐标：U - 5,V - 5
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:139][INFO][log]: 相机相对位置 
+Cx:[0.00819824]
+Cy:[0.01024839]
+Cz:[-0.00247097]
+
+[2020-11-02 15:37:59][common.logger][funcs.py][line:140][INFO][log]: 相机旋转角 
+thetaX:16.527528673367986
+thetaY:31.500339292856314
+thetaZ:-112.81991536972598
+
