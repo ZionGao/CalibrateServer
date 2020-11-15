@@ -139,4 +139,6 @@ def calibrate_camera_and_lidar(XYZ, data2d, data3d, mtx, dist):
     log.info("相机相对位置 \nCx:{}\nCy:{}\nCz:{}\n".format(Cx, Cy, Cz))
     log.info("相机旋转角 \nthetaX:{}\nthetaY:{}\nthetaZ:{}\n".format(thetaX, thetaY, thetaZ))
 
-    return rotM, Cx, Cy, Cz, thetaX, thetaY, thetaZ
+
+    return rotM, tvec, rvec, Cx, Cy, Cz, thetaX, thetaY, thetaZ
+    # return rotM, Cx, Cy, Cz, thetaX, thetaY, thetaZ

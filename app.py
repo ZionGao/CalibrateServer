@@ -103,10 +103,17 @@ def calibrateCameraAndLidar():
         ))
     log.info("ip:{}".format(request.remote_addr))
 
-    rotM, Cx, Cy, Cz, thetaX, thetaY, thetaZ = calibrate_camera_and_lidar(xyz, data2d, data3d, mtx, dist)
+    rotM, tvec, rvec, Cx, Cy, Cz, thetaX, thetaY, thetaZ = calibrate_camera_and_lidar(xyz, data2d, data3d, mtx, dist)
 
-    result = {"rotM": list(map(np.ndarray.tolist, rotM)), "Cx": Cx.tolist()[0], "Cy": Cy.tolist()[0],
-              "Cz": Cz.tolist()[0], "thetaX": thetaX, "thetaY": thetaY, "thetaZ": thetaZ}
+    result = {"rotM": list(map(np.ndarray.tolist, rotM)),
+              "tvec": list(map(np.ndarray.tolist, tvec)),
+              "rvec": list(map(np.ndarray.tolist, rvec)),
+              "Cx": Cx.tolist()[0],
+              "Cy": Cy.tolist()[0],
+              "Cz": Cz.tolist()[0],
+              "thetaX": thetaX,
+              "thetaY": thetaY,
+              "thetaZ": thetaZ}
 
     res["result"] = result
     res["code"] = "00"

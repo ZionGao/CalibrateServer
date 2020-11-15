@@ -40,7 +40,7 @@ print(result)
 data2 = {'token': 1234,
          'prjId': 1234,
          "para": result['result'],
-         "BLH": {"X": "0", "Y": "0", "Z": "0"},
+         "BLH": {"x": "0", "y": "0", "z": "0"},
          "coordinateData0": [
              {"seq": "0", "axisX": "0", "axisY": "0", "axisZ": "0"},
              {"seq": "1", "axisX": "1", "axisY": "1", "axisZ": "1"},
